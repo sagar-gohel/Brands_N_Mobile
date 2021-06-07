@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="172dp"
+    android:padding="25dp"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background"
+    style="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/logo">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#fff"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.brandsnmobile.com"
+        style="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#fff"
+        android:layout_marginTop="4dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

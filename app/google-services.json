@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "489520032895",
+    "project_id": "brandsnmobile-d9546",
+    "storage_bucket": "brandsnmobile-d9546.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489520032895:android:936864c80f54aea915234a",
+        "android_client_info": {
+          "package_name": "com.shagii.brandsnmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489520032895-u1ps989j0q0hd3gmq4imbgc50d6rufjl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shagii.brandsnmobile",
+            "certificate_hash": "5e5291e0595f7f1aa3602b849581dd9cf52bf42d"
+          }
+        },
+        {
+          "client_id": "489520032895-82f8vf7o92p2frfv0rtaavs2uc7n4ojn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj3WkMvZttcYgz7-C_ZkaoA0YuabdvQ5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489520032895-82f8vf7o92p2frfv0rtaavs2uc7n4ojn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
