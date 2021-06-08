@@ -49,6 +49,9 @@ public class DetailActivity extends AppCompatActivity {
                 progressBar.setVisibility(View.GONE);
                 webView.setVisibility(View.VISIBLE);
                 Toast.makeText(DetailActivity.this, "Page Loaded", Toast.LENGTH_SHORT).show();
+                //This way the extra toolbar which seen in app that will be hided using Java script below  we can do more improvise in view by this way
+                String javaScript = "javascript: (function() {var a=document.getElementsByTagName('header'); a[0].hidden='true'; a=document.getElementsClassName('page_body'); a[0].style.padding='0px'})()";
+                webView.loadUrl(javaScript);
             }
         });
         //Here we Pass Url in the Web View that need to run

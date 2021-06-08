@@ -4,11 +4,12 @@ import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.http.GET;
+import retrofit2.http.Url;
 
 public class BloggerAPI {
-
-    private static final String key = "AIzaSyCEQ663mPKECvZRpWIPmP-asTblCr_Cyog";
-    private static final String url = "https://www.googleapis.com/blogger/v3/blogs/8772673180280332178/posts/";
+    //this key and url before implementing infinite Recycler view private and now public
+    public static final String key = "AIzaSyCEQ663mPKECvZRpWIPmP-asTblCr_Cyog";
+    public static final String url = "https://www.googleapis.com/blogger/v3/blogs/8772673180280332178/posts/";
 
     public static PostService postService = null;
 
@@ -30,8 +31,11 @@ public class BloggerAPI {
     }
 
     public interface PostService {
-        @GET("?key=" + key)
-        Call<PostList> getPostList();
+        /*@GET("?key=" + key)
+            Call<PostList> getPostList();
+         - this it before code implementing Recycler view for minimum post*/
+        @GET
+        Call<PostList> getPostList(@Url String url);
 
     }
 }

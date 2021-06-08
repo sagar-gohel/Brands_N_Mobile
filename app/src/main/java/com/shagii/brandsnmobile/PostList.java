@@ -9,6 +9,9 @@ import java.util.List;
 
 public class PostList {
 
+    @SerializedName("nextPageToken")
+    @Expose
+    private String nextPageToken;
     @SerializedName("kind")
     @Expose
     private String kind;
@@ -43,4 +46,11 @@ public class PostList {
         this.etag = etag;
     }
 
+    public String getNextPageToken() {
+        return nextPageToken;
+    }
+
+    public void setNextPageToken(String nextPageToken) {
+        this.nextPageToken = nextPageToken;
+    }
 }
